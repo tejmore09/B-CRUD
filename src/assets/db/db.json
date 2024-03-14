@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "firstName": "Raj",
+      "lastName": "Varma",
+      "email": "raj@gmail.com",
+      "address": "Pune, Hinjevadi-Phase3"
+    },
+    {
+      "id": "2",
+      "firstName": "Vikas",
+      "lastName": "shah",
+      "email": "vikas@gmail.com",
+      "address": "Pune, Hinjevadi-Phase3"
+    },
+    {
+      "id": "4",
+      "firstName": "Tej",
+      "lastName": "Patil",
+      "email": "tej@gmail.com",
+      "address": "Mumbai"
+    },
+    {
+      "firstName": "Ram",
+      "lastName": "Yadav",
+      "email": "ram@gmail.com",
+      "address": "Chennai",
+      "id": "2e50"
+    }
+  ]
+}

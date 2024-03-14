@@ -1,0 +1,33 @@
+<div style="padding: 20px;">
+  <div style="padding-bottom: 10px; font-weight: bold; font-size: 16px;">Create User</div>
+<form [formGroup]="form" (ngSubmit)="onFormSubmit()">
+  
+    <div class="row" >
+        <mat-form-field appearance="outline">
+            <mat-label>First Name</mat-label>
+            <input matInput type="text" placeholder="Ex. Raj" formControlName="firstName">
+          </mat-form-field>
+          <mat-form-field appearance="outline">
+            <mat-label>Last Name</mat-label>
+            <input matInput type="text" placeholder="Ex. Varma" formControlName="lastName">
+          </mat-form-field>
+    </div>
+    <div class="row" >
+        <mat-form-field appearance="outline">
+            <mat-label>Email</mat-label>
+            <input matInput type="email" placeholder="abc@gmail.com" formControlName="email">
+          </mat-form-field>
+          <mat-form-field appearance="outline">
+            <mat-label>Adress</mat-label>
+            <input matInput type="text" placeholder="Pune" formControlName="address">
+          </mat-form-field>
+    </div>
+    <div style="display: flex; flex-direction: row; float: right;" >
+      <div style="justify-content: flex-end; display: flex;">
+        <button mat-raised-button style="margin-right: 10px;">Cancel</button>
+        <button mat-raised-button color="primary" type="submit">Save</button>
+      </div>
+    </div>
+</form>
+</div>
+
